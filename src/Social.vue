@@ -2,20 +2,28 @@
   <v-app id="inspire">
     <v-navigation-drawer v-model="drawer" app clipped>
       <v-list dense>
-        <v-list-item link>
+        <v-list-item link to="/">
           <v-list-item-action>
             <v-icon>mdi-view-dashboard</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>Dashboard</v-list-item-title>
+            <v-list-item-title>Twitter</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link>
+        <v-list-item link to="/instagram">
+          <v-list-item-action>
+            <v-icon>mdi-view-dashboard</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>Instagram</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item link to="/about">
           <v-list-item-action>
             <v-icon>mdi-settings</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>Settings</v-list-item-title>
+            <v-list-item-title>About</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -39,7 +47,7 @@
         </v-row>
       </v-container>-->
 
-      <v-row dense>
+      <!-- <v-row dense>
         <v-col v-for="card in cards" :key="card.title" :cols="card.flex">
           <v-card class="ma-3">
               <v-img
@@ -68,7 +76,10 @@
               </v-card-actions>
             </v-card>
         </v-col>
-      </v-row>
+      </v-row> -->
+
+      <router-view/>
+
     </v-content>
 
     <v-footer app>
