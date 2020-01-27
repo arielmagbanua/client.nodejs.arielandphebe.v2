@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
+    "firebase": "^7.7.0",
+    "firebase-admin": "^8.9.2",
     "vue": "^2.6.10",
     "vue-router": "^3.1.5",
     "vuetify": "^2.2.6"
@@ -36,7 +38,9 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
