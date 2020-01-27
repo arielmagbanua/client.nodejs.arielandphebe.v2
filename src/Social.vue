@@ -4,7 +4,7 @@
       <v-list dense>
         <v-list-item link to="/">
           <v-list-item-action>
-            <v-icon>mdi-view-dashboard</v-icon>
+            <v-icon>mdi-twitter</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Twitter</v-list-item-title>
@@ -12,7 +12,7 @@
         </v-list-item>
         <v-list-item link to="/instagram">
           <v-list-item-action>
-            <v-icon>mdi-view-dashboard</v-icon>
+            <v-icon>mdi-instagram</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Instagram</v-list-item-title>
