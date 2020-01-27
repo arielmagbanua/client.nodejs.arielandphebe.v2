@@ -41,6 +41,13 @@
   firebase.initializeApp(firebaseConfig);
 
   const firestore = firebase.firestore();
+
+  firebase.firestore().enablePersistence()
+    .catch((err) => {
+      console.error(err);
+      console.log(err.code);
+    });
+
   const tweetCollection = firestore.collection('tweets');
 
   export default {
@@ -55,6 +62,7 @@
     },
     
     mounted() {
+      // TODO: use onSnapShot to obtain cached values first.
       tweetCollection.get()
         .then((querySnapshot) => {
           const tweetPromises = querySnapshot.docs.map(async (doc) => {
