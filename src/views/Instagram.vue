@@ -1,19 +1,23 @@
 <template>
-  <div class="instagram">
-    <!-- <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <p>Coming soon!</p>
-  </div>
+  <v-container fluid>
+    <v-row
+      align="top"
+      justify="center"
+    >
+      <blockquote class="blockquote">
+        Sorry, this page is still under development :)
+      </blockquote>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'home',
+  name: "instagram",
   components: {
-    // HelloWorld
+   
   }
-}
+};
 </script>

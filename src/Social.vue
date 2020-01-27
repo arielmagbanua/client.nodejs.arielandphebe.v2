@@ -20,7 +20,7 @@
         </v-list-item>
         <v-list-item link to="/about">
           <v-list-item-action>
-            <v-icon>mdi-settings</v-icon>
+            <v-icon>mdi-information</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>About</v-list-item-title>
