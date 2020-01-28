@@ -15,7 +15,7 @@ import TweetCard from '@/components/TweetCard';
 
 const localVue = createLocalVue();
 
-describe('HelloWorld.vue', () => {
+describe('TweetCard.vue', () => {
   let vuetify;
 
   beforeEach(() => {
