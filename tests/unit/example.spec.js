@@ -1,17 +1,16 @@
 // Libraries
-import Vue from 'vue'
-import Vuetify from 'vuetify'
-
+import Vue from 'vue';
+import Vuetify from 'vuetify';
 Vue.use(Vuetify);
 
 // Utilities
 import {
   mount,
   createLocalVue
-} from '@vue/test-utils'
+} from '@vue/test-utils';
 
 // import { shallowMount } from '@vue/test-utils'
-import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld';
 
 // describe('HelloWorld.vue', () => {
 //   it('Welcome Message Test', () => {
