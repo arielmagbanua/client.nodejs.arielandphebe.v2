@@ -42,11 +42,11 @@
 
   const firestore = firebase.firestore();
 
-  firebase.firestore().enablePersistence()
-    .catch((err) => {
-      console.error(err);
-      console.log(err.code);
-    });
+  // firebase.firestore().enablePersistence()
+  //   .catch((err) => {
+  //     console.error(err);
+  //     console.log(err.code);
+  //   });
 
   const tweetCollection = firestore.collection('tweets');
 

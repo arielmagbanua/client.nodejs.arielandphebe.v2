@@ -1,6 +1,5 @@
 import Vue from 'vue';
-// import App from './App.vue'
-import Social from './Social';
+import Social from './Social.vue';
 import vuetify from './plugins/vuetify';
 import router from './router';
 

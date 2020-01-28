@@ -2,7 +2,7 @@
   <v-app id="inspire">
     <v-navigation-drawer v-model="drawer" app clipped>
       <v-list dense>
-        <v-list-item link to="/">
+        <v-list-item link to="/social" exact>
           <v-list-item-action>
             <v-icon>mdi-twitter</v-icon>
           </v-list-item-action>
@@ -10,7 +10,7 @@
             <v-list-item-title>Twitter</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link to="/instagram">
+        <v-list-item link to="/social/instagram" exact>
           <v-list-item-action>
             <v-icon>mdi-instagram</v-icon>
           </v-list-item-action>
@@ -18,7 +18,7 @@
             <v-list-item-title>Instagram</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link to="/about">
+        <v-list-item link to="/social/about" exact>
           <v-list-item-action>
             <v-icon>mdi-information</v-icon>
           </v-list-item-action>

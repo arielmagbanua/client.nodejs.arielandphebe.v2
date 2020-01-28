@@ -7,17 +7,22 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
+    path: '/social',
     name: 'twitter',
     component: Twitter
   },
   {
-    path: '/instagram',
+    path: '/social/twitter',
+    name: 'twitter',
+    component: Twitter
+  },
+  {
+    path: '/social/instagram',
     name: 'instagram',
     component: Instagram
   },
   {
-    path: '/about',
+    path: '/social/about',
     name: 'about',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
